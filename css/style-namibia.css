@@ -1,0 +1,49 @@
+/*.u-full-width {
+table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 10px 50px;
+  
+}
+
+thead {
+    width:30%;
+    text-align: center;
+    
+}
+
+th {
+  font-size: 25px;
+  
+}
+
+td {
+  font-size: 20px;
+}
+
+th, td {
+  
+  width: 20%;
+}
+
+tbody, thead, td {
+text-align: left;
+}
+
+tbody tr:nth-child(odd) { background: rgba(0,0,0,.1)
+}
+
+.borderPad {
+  padding-inline-start: 15px;
+  margin-left: 15px !important;
+}
+*/
+.order .u-full-width {
+  display:flex;
+  justify-content: space-around;
+}
+
+.order .u-full-width div {
+width: 20%;
+text-align: center;
+}

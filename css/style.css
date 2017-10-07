@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+}
+.navbar {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#logo {
+    height: 10vh;
+    margin-right: 25px;
+}
+
+/*Order overview*/
+.order .u-full-width {
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .order .u-full-width div {
+  width: 20%;
+  text-align: center;
+  }
+
+  /*indiv orders*/
+
+.orderPanel {
+    height: 90vh;
+}
+
+.orderPanel .container{
+    height: 100%;
+}
+
+.orderPanel column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.orderDetails {
+    width: 100%;
+}
+
+.orderDetails li, .orderNotes li, .deliveryInfo li  {
+    font-weight: bold;
+}
+
+.orderDetails li span, .orderNotes li span, .orderNotes li select, .orderNotesList li, .orderContents li, .deliveryInfo li span{
+    font-weight: normal;
+}
+
+.orderNotes textarea {
+    width: 90%;
+    min-height: 125px;
+    margin: 10px 0 10px 10px;
+}
+
+.estimatedArrival {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.eta-time{
+    font-size: 5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order #123456</title>
+
+      <!-- GOOGLE FONTS ADD -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="navbar u-full-width">
+                    <a  href="#">
+                    <img id="logo" src="http://via.placeholder.com/200x150" alt=""></a>
+                    <a href="orders.html">&larr; Back</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="orderPanel">
+        <div class="container">
+            <div class="row">
+                <div class="one-half column">
+                    <div class="column-header">
+                        <h1>Order Details</h1>                            
+                    </div>
+                    <div class="orderDetails">
+                        <ul>
+                            <li>Order ID: <span>#12346</span></li>
+                            <li>Customer Name: <span>Terminus Hotel</span></li>
+                            <li>Delivery Address: <span>605 Victoria St, Abbotsford VIC 3066</span></li>
+                            <li>Order Contents: 
+                                <ul class="orderContents">
+                                    <li>
+                                        12 x 450 keg Calrton Draught
+                                    </li>
+                                    <li>
+                                        4 x 450 keg Fat Yak
+                                    </li>
+                                </ul>
+                            </li>                           
+                        </ul>
+                    </div>
+                    <div class="orderNotes">
+                        <ul>
+                            <li>
+                                Preffered Delivery Window 
+                                <select name="delivTimes">
+                                        <option value="window1">8.00am - 11.00am</option>
+                                        <option value="window2">11.00am - 2.00pm</option>
+                                        <option value="window3">2.00pm - 5.00pm</option>
+                                </select>
+                            </li>
+                            <li>
+                                Order Notes:
+                                <ul class="orderNotesList">
+                                    <li>Keg delivery door on Flockhart St</li>
+                                </ul>                                
+                            </li> 
+                            <li>Add notes: <br>
+                            <textarea name="addNotes" id="addNote" cols="30" rows="10"></textarea>
+                            <input class="button-primary" type="submit" value="Add Note">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="one-half column deliveryInfo">
+                    <div class="column-header">
+                        <h1>Delivery Tracking</h1>                            
+                    </div>
+                    <ul>
+                        <li>
+                            Estimates Date of Delivery: <span>11-10-17</span>
+                        </li>
+                    </ul>
+                    <div class="estimatedArrival">
+                            <h4>Estimated Time of Delivery</h4> <br>
+                            <span class="eta-time">Check back on delivery date</span>
+                                
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
