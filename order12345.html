@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -66,8 +67,8 @@
                                 </ul>                                
                             </li> 
                             <li>Add notes: <br>
-                            <textarea name="addNotes" id="addNote" cols="30" rows="10"></textarea>
-                            <input class="button-primary" type="submit" value="Add Note">
+                            <textarea name="addNotes" id="noteText" cols="30" rows="10"></textarea>
+                            <input class="button-primary addNote" type="submit" value="Add Note">
                             </li>
                         </ul>
                     </div>
@@ -82,9 +83,15 @@
                         </li>
                     </ul>
                     <div class="estimatedArrival">
-                         <h4>Estimated Time of Delivery</h4> <br>
+                         <h4>Estimated Time of Delivery</h4>
                          <span class="eta-time">3.32pm</span>
+                         <h4>Your driver is Andy</h4>
+                         <img class="truckDriver" src="images/driver.jpg" alt="Andy">
                                 
+                    </div>
+                    <div class="contact-us">
+                        <h4>Have Questions?</h4>
+                        <p>Call us on <a href="tel: 0399999999">03 9999 9999</a></p>
                     </div>
                 </div>
             </div>

@@ -58,13 +58,42 @@ a {
     margin: 10px 0 10px 10px;
 }
 
+.deliveryInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
 .estimatedArrival {
     text-align: center;
     display: flex;
+    align-items: center;    
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
 }
+
+.estimatedArrival h4 {
+    margin-bottom: 0;
+}
+
+.truckDriver {
+    width: 80%;
+    height: auto;
+    border-radius: 1em;
+    border: 1px solid black;
+}
+
 .eta-time{
     font-size: 5rem;
     font-weight: bold;
+}
+
+.contact-us {
+    margin-top: 50px;
 }
