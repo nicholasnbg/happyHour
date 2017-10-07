@@ -18,16 +18,15 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="container">
-            <div class="row">
-                <div class="navbar u-full-width">
-                    <a  href="#">
-                    <img id="logo" src="http://via.placeholder.com/200x150" alt=""></a>
-                    <a href="orders.html">&larr; Back</a>
-                </div>
-
+        <nav class="nav container">
+            <div class="logo">
+            <img src="images/logo_en.svg" alt="logo">  
             </div>
-        </div>
+            <ul class="nav-items">
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="orders.html">&larr; Back</a></li>
+            </ul>
+        </nav>
     </div>
     <div class="orderPanel">
         <div class="container">
@@ -55,6 +54,7 @@
                             <li>
                                 Preffered Delivery Window 
                                 <select name="delivTimes">
+                                    <option value="" disabled selected>Select a time</option>
                                         <option value="window1">8.00am - 11.00am</option>
                                         <option value="window2">11.00am - 2.00pm</option>
                                         <option value="window3">2.00pm - 5.00pm</option>
@@ -98,6 +98,21 @@
             
         </div>
     </div>
+
+    <div class="footer">
+            
+        <div class="footer-navbar">
+            <nav class="footer-nav container">
+            <div class="footer-logo">
+                <img src="images/logo_en.svg" alt="logo">  
+            </div>
+            <ul class="footer-text">
+                <li>Copyright &copy; 2017, ABInBev Pty Ltd.</li>
+            </ul>
+            </nav>
+        </div>    
+            
+        </div>
 
     
 </body>

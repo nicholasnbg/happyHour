@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
 }
+/*
 .navbar {
     height: 10vh;
     display: flex;
@@ -12,8 +13,44 @@ a {
     height: 10vh;
     margin-right: 25px;
 }
+*/
+.navbar, .footer-navbar {
+    background: white;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.nav, .footer-nav {
+    display: flex;
+}
+ul.nav-items, ul.footer-text {
+    display: flex;    
+    margin: auto 0 auto auto;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.navbar ul, .navbar li {
+    list-style-type: none;
+    margin-right : 10px;
+}
 
 /*Order overview*/
+.orders-page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.orders-page .footer {
+    margin-top: auto;
+}
+
 .order .u-full-width {
     display:flex;
     justify-content: space-around;
@@ -22,6 +59,10 @@ a {
   .order .u-full-width div {
   width: 20%;
   text-align: center;
+  }
+
+  .order-header {
+      margin-bottom: 20px;
   }
 
   /*indiv orders*/
@@ -46,6 +87,10 @@ a {
 
 .orderDetails li, .orderNotes li, .deliveryInfo li  {
     font-weight: bold;
+}
+
+.orderDetails>ul, .orderNotes>ul, .deliveryInfo ul {
+    list-style: none;
 }
 
 .orderDetails li span, .orderNotes li span, .orderNotes li select, .orderNotesList li, .orderContents li, .deliveryInfo li span{
@@ -74,14 +119,16 @@ a {
     flex-direction: column;
     margin-top: 20px;
     border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 35px 10px;
+    margin-bottom: 0;
 }
 
 .estimatedArrival h4 {
     margin-bottom: 0;
 }
-
+.estimatedArrival p {
+    font-size: 2rem;
+}
 .truckDriver {
     width: 80%;
     height: auto;
@@ -96,4 +143,27 @@ a {
 
 .contact-us {
     margin-top: 50px;
+}
+
+/*Settings*/
+.settings {
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+    background: white;
+    margin: 6rem auto;
+    box-shadow: 1px 1px 80px #dddddd;
+}
+
+.footer-logo img {
+    width: 100%;
+    max-width: 200px;
+}
+
+ul.footer-text {
+    list-style: none;
+}
+
+input[type="submit"].button-primary {
+    margin: 1.5rem 0;
 }
