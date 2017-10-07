@@ -8,4 +8,6 @@ $(document).ready(function(){
             $('#noteText').val('');
         };
     });
+
+    
 });
